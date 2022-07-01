@@ -54,8 +54,9 @@ h5{
 }
 
 .estadisticas{
-    display: flex;
-    justify-content: space-between;
+    position: absolute;
+    right: 100px;
+    bottom: -80px;
 }
 
 .productos h1{
@@ -97,8 +98,12 @@ h5{
     width: 337px;
     height: 88px;}
 
+    .company{ padding-top: 30px;
+        position: absolute;
+        right: 100px;
+        bottom: -300px;}
 
-.company article .titulo1::before{
+.company .titulo1::before{
     content: "01";
     color: rgb(249, 249, 249);
     background-color: rgb(242, 95, 58);
@@ -115,9 +120,8 @@ h5{
     width: 228px;
     height: 23px;} 
 
-.company{ padding-top: 30px;}
 
-.company article p{
+.company p{
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 500;
@@ -127,9 +131,14 @@ h5{
     height: 104px;
     color: #B3B2B7;
     padding-left: 80px;
-    padding-top: 10px;}
+    padding-top: 10px;}ç
 
-.reports article .titulo2::before{
+.Advance{ 
+        position: absolute;
+        right: 200px;
+        bottom: -400;}
+
+.Advance .titulo2::before{
     content: "02";
     color: rgb(249, 249, 249);
     background-color: rgb(242, 95, 58);
@@ -146,9 +155,7 @@ h5{
     width: 185px;
     height: 23px;}
 
-.reports{ padding-top: 30px;}
-
-.reports article p{
+.Advance  p{
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 500;
@@ -161,7 +168,12 @@ h5{
     padding-left: 80px;
     padding-top: 10px;}
 
-.place article .titulo3::before{
+    .place{ padding-top: 30px;
+        position: absolute;
+        right: 100px;
+        bottom: -700px;}
+
+.place .titulo3::before{
     content: "03";
     color: rgb(249, 249, 249);
     background-color: rgb(242, 95, 58);
@@ -176,9 +188,7 @@ h5{
     font-size: 16px;
     line-height: 23px;}
 
-.place{ padding-top: 30px;}
-
-.place article p{
+.place  p{
     font-family: 'Be Vietnam Pro';
     font-style: normal;
     font-weight: 500;
